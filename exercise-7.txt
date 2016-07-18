@@ -1,0 +1,9 @@
+show tables;
+
++---------------------------------+
+| Tables_in_decodemtl_addressbook |
++---------------------------------+
+| AddressBook                     |
+| Entry                           |
+| account                         |
++---------------------------------+
