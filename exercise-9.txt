@@ -1,0 +1,38 @@
+mysql> create table rooster (id INT, birthday DATETIME, toAge DATETIME);
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> create table hen (id INT, birthday DATETIME, toAge DATETIME);
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> create table chicks (id INT, birthday DATETIME, toAge DATETIME);
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> describe chicks;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| id       | int(11)  | YES  |     | NULL    |       |
+| birthday | datetime | YES  |     | NULL    |       |
+| toAge    | datetime | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
+mysql> describe hen;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| id       | int(11)  | YES  |     | NULL    |       |
+| birthday | datetime | YES  |     | NULL    |       |
+| toAge    | datetime | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> describe rooster;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| id       | int(11)  | YES  |     | NULL    |       |
+| birthday | datetime | YES  |     | NULL    |       |
+| toAge    | datetime | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
