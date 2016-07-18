@@ -1,0 +1,16 @@
+
+use decodemtl_addressbook;
+create table Account (id INT );
+create table AddressBook (id INT );
+create table Entry (id INT );
+
++---------------------------------+
+| Tables_in_decodemtl_addressbook |
++---------------------------------+
+| AddressBook                     |
+| Entry                           |
+| Test                            |
+| account                         |
++---------------------------------+
+4 rows in set (0.00 sec)
+
